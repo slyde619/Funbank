@@ -8891,8 +8891,8 @@ html.rd-navbar-fixed-linked .page {
 }
 
 .rd-navbar-transparent.rd-navbar-static .rd-nav-link:hover {
-	color: #000;
-	border-color: #ffffff;
+	color: var(--bg--skinpurple);
+	border-color: var(--clr--grey);
 }
 
 .rd-navbar-transparent.rd-navbar-static .rd-navbar-aside-outer,
