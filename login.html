@@ -131,6 +131,14 @@
                             <label for="form-label" class="form-label "></label>
                           </div>
                           <div class="form-wrap">
+                            <select name="account-type" id="accountType" class=" form-input form-select" data-constraints="@Required">
+                              <option>Account Type</option>
+                              <option value="current">Current</option>
+                              <option value="savings">Savings</option>
+                            </select>
+                            <!-- <label class="form-label" for="account-type"></label> -->
+                          </div>
+                          <div class="form-wrap">
                             <input class="form-input" id="register-password" type="password" name="password" data-constraints="@Required">
                             <label class="form-label" for="register-password">Password</label>
                           </div>
