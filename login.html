@@ -103,6 +103,14 @@
                         <!-- RD Mailform-->
                         <form class="rd-form form-lg rd-mailform">
                           <div class="form-wrap">
+                            <input class="form-input" id="firstName" type="text" name="firstName" data-constraints="@firstName @Required">
+                            <label class="form-label" for="register-email">First Name</label>
+                          </div>
+                          <div class="form-wrap">
+                            <input class="form-input" id="lastName" type="text" name="lastName" data-constraints="@lastName @Required">
+                            <label class="form-label" for="register-email">Last Name</label>
+                          </div>
+                          <div class="form-wrap">
                             <input class="form-input" id="register-email" type="email" name="email" data-constraints="@Email @Required">
                             <label class="form-label" for="register-email">E-mail</label>
                           </div>
