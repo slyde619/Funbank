@@ -14672,3 +14672,6 @@ img.mfp-img {
 .text-dark{
 	color: var(--clr--purplelight) !important;
 }
+a.brand:hover{
+	color: var(--bg--skinpurple);
+}
