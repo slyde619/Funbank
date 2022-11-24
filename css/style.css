@@ -314,8 +314,8 @@ mark,
 }
 
 .lead {
-	font-size: 25px;
-	line-height: 40px;
+	font-size: 1.5rem;
+	line-height: 1.2em;
 	font-weight: 300;
 }
 
