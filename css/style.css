@@ -14675,3 +14675,26 @@ img.mfp-img {
 a.brand:hover{
 	color: var(--bg--skinpurple);
 }
+
+.d-flex{
+	display: flex;
+	justify-content: space-between;
+	color: var(--clr--purpledark);
+}
+
+.d-flex a{
+	font-size: 1.3em;
+}
+
+.whatsapp{
+	color: #25d366;
+}
+.reach{
+	color: #12121a !important;
+	font-size: 1.12rem;
+	font-family: 'Segoe UI', sans-serif;
+}
+
+.tel{
+	color: #151515;
+}
