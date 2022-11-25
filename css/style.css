@@ -14683,7 +14683,7 @@ a.brand:hover{
 }
 
 .d-flex a{
-	font-size: 1.3em;
+	font-size: 1.12em;
 }
 
 .whatsapp{
@@ -14691,10 +14691,17 @@ a.brand:hover{
 }
 .reach{
 	color: #12121a !important;
-	font-size: 1.12rem;
+	font-size: 1.1rem;
 	font-family: 'Segoe UI', sans-serif;
+	font-weight: 400;
 }
 
 .tel{
 	color: #151515;
+}
+
+.tab__content-bg{
+	background-color: #f3f3f3;
+	padding: 1em 1.25em;
+	border-radius: .25em;
 }
