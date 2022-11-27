@@ -14679,21 +14679,25 @@ a.brand:hover{
 .d-flex{
 	display: flex;
 	justify-content: space-between;
-	color: var(--clr--purpledark);
 }
+@media (max-width: 700px){
+	.d-flex{
+		flex-direction: column;
+		justify-content: space-between;
+	}
 
+	.contact__title{
+		margin: .5em 0; 
+	}
+}
 .d-flex a{
 	font-size: 1.12em;
 }
 
-.whatsapp{
-	color: #25d366;
-}
 .reach{
 	color: #12121a !important;
-	font-size: 1.1rem;
-	font-family: 'Segoe UI', sans-serif;
-	font-weight: 400;
+	font-size: 1rem;
+	font-weight: 200;
 }
 
 .tel{
@@ -14703,5 +14707,37 @@ a.brand:hover{
 .tab__content-bg{
 	background-color: #f3f3f3;
 	padding: 1em 1.25em;
-	border-radius: .25em;
+	border-radius: .75em;
+}
+
+/* Contact Us  */
+.contact a{
+	font-size: .854rem;
+}
+.contact__title{
+	color: #0D0A0A !important;
+	font-weight: 200;
+	font-size: .85rem;
+	margin-bottom: .35em;
+}
+.contact-btn{
+	background: #25d366;
+	color: #fff;
+	padding: .65em 1.2em;
+	border-radius: 8px;
+	text-align: center;
+}
+
+.contact-btn:hover{
+	color: var(--bg--skinpurple);
+	background-color: #1da851;
+}
+.tel{
+	border-radius: 8px;
+	padding: .65em 1.2em;
+	background: #25d366;
+}
+
+.fa{
+	font-style: normal !important;
 }
